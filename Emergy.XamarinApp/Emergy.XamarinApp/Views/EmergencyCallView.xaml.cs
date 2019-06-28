@@ -17,11 +17,6 @@ namespace Emergy.XamarinApp.Views
             InitializeComponent();
         }
 
-        private async void Signup_OnClick(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new AccountView());
-        }
-
         private async void Button_OnClick(object sender, EventArgs e)
         {
             ButtonStackLayout.IsVisible = false;

@@ -6,9 +6,6 @@
     <Grid VerticalOptions="Center"
           x:Name="MainGrid"
           Margin="20" >
-
-
-
     </Grid>
   </ContentPage.Content>
 </ContentPage>

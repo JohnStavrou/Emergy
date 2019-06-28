@@ -14,14 +14,14 @@ namespace Emergy.XamarinApp
         public ToggleBarView()
         {
             InitializeComponent();
-            lv = new ListView();
-            lv.ItemsSource = new string[]
-            {
-"Σήμα Κινδύνου",
-"Το Προφίλ μου",
-"Δημιουργία Λογαριασμού"
-            };
-            MainGrid.Children.Add(lv);
+//            lv = new ListView();
+//            lv.ItemsSource = new string[]
+//            {
+//"Σήμα Κινδύνου",
+//"Το Προφίλ μου",
+//"Δημιουργία Λογαριασμού"
+//            };
+//            MainGrid.Children.Add(lv);
         }
     }
 }

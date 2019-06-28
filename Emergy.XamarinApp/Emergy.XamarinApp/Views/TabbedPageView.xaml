@@ -4,12 +4,7 @@
              x:Class="Emergy.XamarinApp.Views.TabbedPageView"
              xmlns:local="clr-namespace:Emergy.XamarinApp.Views"
              BackgroundColor="#e2dede" Title="Emergy">
-
   <local:EmergencyCallView />
-  <local:UsersView />
-  <local:FavoritesView />
-  
-
-
-
+  <local:UserView />
+  <!--<local:FavoritesView />-->
 </TabbedPage>
